@@ -33,17 +33,11 @@ html,body{height:100%;margin:0;font-family:'Inter',system-ui,Segoe UI,Roboto,'He
 
 /* Profile card on the right */
 .hero-card{display:flex;justify-content:flex-end}
-.profile-card{width:320px;background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.8));border-radius:16px;padding:18px;border:1px solid rgba(15,23,42,0.06);box-shadow:0 12px 30px rgba(2,6,23,0.08);display:grid;gap:12px;align-items:center}
-.profile{width:100%;height:auto;border-radius:12px;object-fit:cover;border:6px solid rgba(255,255,255,0.6);box-shadow:0 6px 20px rgba(2,6,23,0.06)}
-.profile-info{display:block;text-align:left}
-.profile-name{margin:6px 0 0;font-size:18px;font-weight:700}
-.profile-role{margin:4px 0;color:var(--muted);font-size:13px}
-.profile-location{margin:2px 0;color:var(--muted);font-size:13px}
-.profile-location a{color:var(--accent-dark);text-decoration:none}
-.profile-stats{display:flex;gap:12px;justify-content:space-between;margin-top:8px}
-.profile-stats div{background:rgba(15,23,42,0.02);padding:8px;border-radius:8px;text-align:center}
-.profile-stats strong{display:block;font-size:16px}
-.profile-stats span{font-size:12px;color:var(--muted)}
+.hero-highlights{width:320px;background:linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9));border-radius:14px;padding:16px;border:1px solid rgba(15,23,42,0.04);box-shadow:0 10px 24px rgba(2,6,23,0.06);display:grid;gap:12px}
+.tile{display:flex;gap:12px;align-items:flex-start;padding:10px;border-radius:12px;background:transparent;border:1px solid rgba(15,23,42,0.02)}
+.tile-illustration{flex:0 0 72px;border-radius:8px}
+.tile h4{margin:0;font-size:15px}
+.tile .tile-meta{margin:6px 0 0;color:var(--muted);font-size:13px}
 
 @keyframes float1{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6%,4%) scale(1.02)}100%{transform:translate(0,0) scale(1)}}
 @keyframes float2{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-6%,-4%) scale(1.03)}100%{transform:translate(0,0) scale(1)}}

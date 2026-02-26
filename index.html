@@ -88,32 +88,33 @@
           </div>
 
           <aside class="hero-card" aria-hidden="false">
-            <div class="profile-card">
-              <!-- Personal photo removed by request; using neutral SVG placeholder -->
-              <div class="profile-placeholder" aria-hidden="true">
-                <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile placeholder">
-                  <defs>
-                    <linearGradient id="phg" x1="0" x2="1" y1="0" y2="1">
-                      <stop offset="0%" stop-color="#e6f7ff"/>
-                      <stop offset="100%" stop-color="#f3e8ff"/>
-                    </linearGradient>
-                  </defs>
-                  <rect width="200" height="200" rx="16" fill="url(#phg)" />
-                  <g transform="translate(50,40)" fill="#c7d2fe">
-                    <circle cx="50" cy="30" r="28" />
-                    <rect x="10" y="70" width="80" height="40" rx="8" fill="#eef2ff" />
-                  </g>
+            <!-- Replaced profile card with a neutral highlights panel -->
+            <div class="hero-highlights" role="complementary" aria-label="Highlights">
+              <div class="tile">
+                <svg class="tile-illustration" width="72" height="56" viewBox="0 0 72 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="72" height="56" rx="8" fill="#e6f7ff" />
+                  <path d="M12 36h48v4H12z" fill="#c7d2fe" />
                 </svg>
+                <h4>Realtime Leaderboards</h4>
+                <p class="tile-meta">Launched a multiplayer ranking system with low-latency updates.</p>
               </div>
-              <div class="profile-info">
-                <h3 class="profile-name">Shubhranshu Pandey</h3>
-                <p class="profile-role">Founder · Builder · Operator</p>
-                <p class="profile-location">Delhi‑NCR · <a href="mailto:pandeyshubhranshu001@gmail.com">pandeyshubhranshu001@gmail.com</a></p>
+
+              <div class="tile">
+                <svg class="tile-illustration" width="72" height="56" viewBox="0 0 72 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="72" height="56" rx="8" fill="#fff1f2" />
+                  <circle cx="36" cy="26" r="14" fill="#fecaca" />
+                </svg>
+                <h4>Model Serving</h4>
+                <p class="tile-meta">Deployed production ML models with autoscaling and monitoring.</p>
               </div>
-              <div class="profile-stats">
-                <div><strong>5+</strong><span>Years</span></div>
-                <div><strong>3</strong><span>Ventures</span></div>
-                <div><strong>560+</strong><span>Clients</span></div>
+
+              <div class="tile">
+                <svg class="tile-illustration" width="72" height="56" viewBox="0 0 72 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="72" height="56" rx="8" fill="#ecfeff" />
+                  <path d="M10 40h52v2H10z" fill="#99f6e4" />
+                </svg>
+                <h4>Automation Tools</h4>
+                <p class="tile-meta">Building pipelines to automate operations and delivery.</p>
               </div>
             </div>
           </aside>
