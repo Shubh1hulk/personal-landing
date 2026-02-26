@@ -1,0 +1,17 @@
+name: Basic checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Ensure index.html exists
+        run: test -f index.html
+      - name: Ensure name replaced
+        run: grep -q "Shubhranshu Pandey" index.html
