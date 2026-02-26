@@ -34,10 +34,11 @@ html,body{height:100%;margin:0;font-family:'Inter',system-ui,Segoe UI,Roboto,'He
 /* Profile card on the right */
 .hero-card{display:flex;justify-content:flex-end}
 .hero-highlights{width:320px;background:linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9));border-radius:14px;padding:16px;border:1px solid rgba(15,23,42,0.04);box-shadow:0 10px 24px rgba(2,6,23,0.06);display:grid;gap:12px}
-.tile{display:flex;gap:12px;align-items:flex-start;padding:10px;border-radius:12px;background:transparent;border:1px solid rgba(15,23,42,0.02)}
-.tile-illustration{flex:0 0 72px;border-radius:8px}
-.tile h4{margin:0;font-size:15px}
+.tile{display:flex;gap:14px;align-items:flex-start;padding:12px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.98), rgba(249,250,251,0.98));border:1px solid rgba(15,23,42,0.04)}
+.tile-illustration{flex:0 0 72px;border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.04)}
+.tile h4{margin:0;font-size:15px;font-weight:700;color:var(--dark)}
 .tile .tile-meta{margin:6px 0 0;color:var(--muted);font-size:13px}
+.tile:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(2,6,23,0.06);transition:all .18s ease}
 
 @keyframes float1{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6%,4%) scale(1.02)}100%{transform:translate(0,0) scale(1)}}
 @keyframes float2{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-6%,-4%) scale(1.03)}100%{transform:translate(0,0) scale(1)}}
