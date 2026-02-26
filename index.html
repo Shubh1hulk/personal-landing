@@ -47,15 +47,61 @@
     </header>
 
     <main id="main">
-      <section class="hero">
-        <div class="inner">
-          <h2 class="eyebrow">Founder. Builder. Operator.</h2>
-          <h3 class="tagline">This is not a portfolio. This is my foundation.</h3>
-          <p class="lead">I don't just design interfaces or write code. I architect systems, build ventures from zero, and turn vision into reality.</p>
-          <p class="ctas">
-            <a class="btn primary" href="#work">Work with me</a>
-            <a class="btn" href="#contact">Start a conversation</a>
-          </p>
+      <section class="hero" aria-label="Hero">
+        <!-- Decorative background layers -->
+        <div class="hero-bg" aria-hidden="true">
+          <svg class="bg-blob blob-1" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="g1" x1="0%" x2="100%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.18"/>
+                <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.12"/>
+              </linearGradient>
+            </defs>
+            <g fill="url(#g1)">
+              <path d="M300,30 C420,20 560,140 560,300 C560,460 420,580 300,570 C180,560 40,440 40,300 C40,160 180,40 300,30 Z"/>
+            </g>
+          </svg>
+
+          <svg class="bg-blob blob-2" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="g2" x1="100%" x2="0%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.09"/>
+                <stop offset="100%" stop-color="#0891b2" stop-opacity="0.06"/>
+              </linearGradient>
+            </defs>
+            <g fill="url(#g2)">
+              <path d="M480,120 C540,220 540,380 430,450 C320,520 180,520 120,420 C60,320 120,180 220,120 C320,60 420,60 480,120 Z"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="inner hero-inner">
+          <div class="hero-left">
+            <h2 class="eyebrow">Founder. Builder. Operator.</h2>
+            <h1 class="tagline">This is not a portfolio. This is my foundation.</h1>
+            <p class="lead">I don't just design interfaces or write code. I architect systems, build ventures from zero, and turn vision into reality.</p>
+
+            <p class="ctas">
+              <a class="btn primary" href="#work">Work with me</a>
+              <a class="btn" href="#contact">Start a conversation</a>
+            </p>
+          </div>
+
+          <aside class="hero-card" aria-hidden="false">
+            <div class="profile-card">
+              <img class="profile" src="assets/profileimg-DJcMelc5.png" alt="Shubhranshu Pandey profile" width="200" height="200" />
+              <div class="profile-info">
+                <h3 class="profile-name">Shubhranshu Pandey</h3>
+                <p class="profile-role">Founder · Builder · Operator</p>
+                <p class="profile-location">Delhi‑NCR · <a href="mailto:pandeyshubhranshu001@gmail.com">pandeyshubhranshu001@gmail.com</a></p>
+              </div>
+              <div class="profile-stats">
+                <div><strong>5+</strong><span>Years</span></div>
+                <div><strong>3</strong><span>Ventures</span></div>
+                <div><strong>560+</strong><span>Clients</span></div>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 
